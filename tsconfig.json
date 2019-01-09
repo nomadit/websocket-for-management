@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist/server",
+    "strict": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "skipLibCheck": true,
+    "strictFunctionTypes": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
